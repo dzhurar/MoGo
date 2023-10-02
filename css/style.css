@@ -6,21 +6,18 @@
     --button-text-color:#FFFFFF;
     --footer-text-color:#000000;
 }
-*{
-    box-sizing: border-box;
-}
-ul{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
 body{
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
-    width: 1200px;
-    height: ;
+}
+.container{
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
     border: 2px solid red;
+}
+.header{
+    padding-top: 17px;
 }
 .logo{
     color: var(--logo-color);
@@ -38,6 +35,9 @@ body{
     color: var(--accent-color);
 }
 /* Work */
+.work{
+    padding-top: 68px;
+}
 .slogan{
     font-family: 'Kaushan Script', cursive;
     color: var(--title-color);
@@ -45,6 +45,7 @@ body{
     font-weight: 400;
     margin-bottom: 20px;
     text-align: center;
+    margin-bottom: 20px;
 }
 .title{
     color: var(--title-color);
@@ -52,4 +53,50 @@ body{
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.line{
+    width: 60px;
+    height: 4px;
+    background-color: var(--accent-color);
+    margin-bottom: 65px;
+}
+.work-title{
+    margin-bottom: 20px;
+}
+.work-img{
+    margin-right: 20px;
+}
+/* team */
+.team{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.team-text{
+    margin-bottom: 27px;
+}
+.team-img{
+    margin-bottom: 30px;
+}
+.employee-name{
+    margin-bottom: 11px;
+}
+/* footer */
+.footer{
+    padding-top: 10px;
+    padding-bottom: 10px;   
+}
+.footer-container{
+    border-top: 1px solid color:var(#B6B6B6);
+}
+.action-button{
+    background-color: var(--logo-color);
+    color: var(--button-text-color);
+    padding: 11px 38px;
+    border: none;
+    text-transform: uppercase;
+    margin-left: -20px;
+}
+.input-email{
+    padding: 11px 145px 11px 10px;
 }
