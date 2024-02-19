@@ -1,0 +1,32 @@
+.header{
+    padding-top: 17px;
+}
+.header__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo{
+    color: $logo-color;
+    font-size: 30px;
+    font-weight: 700;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+.header__link{
+    color: $logo-color;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus{
+        color: $accent-color;
+        border-bottom: 3px solid $accent-color;
+        border-radius: 5%;
+    }
+ }

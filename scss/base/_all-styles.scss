@@ -1,5 +1,7 @@
 body{
     box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
 }
 ul, ol{
     list-style: none;
@@ -11,4 +13,9 @@ a{
 }
 p, h1, h2, h3, h4, h5, h6{
     margin: 0;
+}
+.container{
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
 }

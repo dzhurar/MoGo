@@ -1,0 +1,48 @@
+.team{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.team__slogan-wrap{
+    display: flex;
+    justify-content: center;
+}
+.team__slogan{
+    font-family: 'Kaushan Script', cursive;
+    color: $title-color;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.team__text{
+    margin-bottom: 27px;
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+.team__list{
+    display: flex;
+    justify-content: space-between;
+}
+.team__img{
+    margin-bottom: 30px;
+}
+.team__wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team__employee-name{
+    margin-bottom: 11px;
+    color: var(--title-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+.team__employee-position{
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+}
